@@ -9,7 +9,7 @@ A tribute page for Albert Einstein, created for FreeCodeCamp certification. Show
 - Modern styling
 
 ## Live Demo
-[View Live]([https://kelyzor.github.io/tribute-page/](https://kelyzor.github.io/Tribute_Page/))
+[View Live](https://kelyzor.github.io/Tribute_Page/)
 
 ## Technologies
 - HTML5
