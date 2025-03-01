@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f6fa;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #34495e;
+  color: white;
+}
+
+#title {
+  margin-bottom: 5px;
+  font-size: 2em;
+}
+
+#description {
+  font-size: 1.1em;
+  color: #ecf0f1;
+}
+
+#main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+#img-div {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+#img-caption {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+#tribute-info {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#tribute-info p {
+  margin: 15px 0;
+  font-size: 1.1em;
+  color: #7f8c8d;
+}
+
+#tribute-info h3 {
+  margin: 20px 0 10px;
+  color: #34495e;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto 20px;
+}
+
+ul li {
+  margin: 10px 0;
+  padding-left: 20px;
+  position: relative;
+}
+
+ul li:before {
+  content: "•";
+  color: #e74c3c;
+  position: absolute;
+  left: 0;
+}
+
+blockquote {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #3498db;
+  font-style: italic;
+  color: #7f8c8d;
+}
+
+cite {
+  display: block;
+  text-align: right;
+  margin-top: 5px;
+  color: #34495e;
+}
+
+#tribute-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+#tribute-link:hover {
+  background-color: #2980b9;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #34495e;
+  color: white;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  #title {
+      font-size: 1.5em;
+  }
+  #description {
+      font-size: 1em;
+  }
+  #img-div, #tribute-info {
+      padding: 10px;
+  }
+  #image {
+      width: 100%;
+  }
+  ul {
+      max-width: 100%;
+      padding-left: 0;
+  }
+}
